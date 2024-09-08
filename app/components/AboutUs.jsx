@@ -6,24 +6,24 @@ import brac from "../../assets/brac.svg"
 import brain from "../../assets/brain.svg"
 const Aboutus = () => {
   return (
-    <section className='pt-10  relative'>
+    <section className='pt-20  relative'>
         <div className='w-full relative '>
             <Image src={bg} alt="bg" className='rounded-2xl' />
             <div className='absolute inset-0 flex flex-col items-end px-8 justify-end md:pb-40 pb-16'>
-            <h1 className='font-gilroy font-bold text-white md:text-7xl text-2xl tracking-wider text-end leading-tight'>
+            <h1 className='font-gilroy font-bold text-white md:text-6xl min-[390px]:text-[14px]  min-[375px]:text-[12px] text-base tracking-wider text-end leading-tight'>
   <span className='block'>Drive the Future with</span>
   <span className='block'>NBC Engineering&rsquo;s Electric</span>  {/* Escaped ' using &rsquo; */}
   <span className='block'>Rickshaws</span>
 </h1>
 
-          <button className='bg-blue transition duration-300 mt-2 ease-in-out md:w-48 w-32 md:px-6 md:py-4 px-4 py-2 rounded-2xl inline-block hover:bg-black text-white font-bold md:tracking-widest tracking-wider font-gilroy text-[10px]  md:text-sm'>
+          <button className='bg-blue transition duration-300  ease-in-out md:w-48 w-28 mt-2 md:px-6 md:py-4  px-4 sm:py-2 py-2 rounded-2xl inline-block hover:bg-black text-white font-bold md:tracking-widest tracking-wider font-gilroy sm:text-[8px] min-[390px]:text-[6px] text-[6px]  md:text-sm'>
             Explore Products
           </button>
             </div>
             
         </div>
-        <div className='rounded-2xl md:mb-32 mb-48  '> 
-        <div className="absolute bottom-0 shadow-xl  left-1/2 transform -translate-x-1/2 md:w-full mx-auto w-[90%] rounded-2xl  md:max-w-6xl bg-white bg-opacity-40 backdrop-blur-md border border-white    md:pb-10 md:pt-8 p-2">
+        <div className='rounded-2xl md:mb-32 mb-52  '> 
+        <div className="absolute bottom-0 shadow-xl  left-1/2 transform -translate-x-1/2 md:w-full mx-auto w-[90%] rounded-2xl  max-w-6xl bg-white bg-opacity-40 backdrop-blur-md border border-white    md:pb-10 md:pt-8 p-2 ">
       <div className="flex md:justify-around flex-col md:flex-row items-center mb-4 md:mb-10">
         <div className="flex items-center space-x-2 md:pb-2 pb-2">
         <Image src={gear} alt='gear' className="w-8 h-8 md:w-12 md:h-12 object-contain"/>

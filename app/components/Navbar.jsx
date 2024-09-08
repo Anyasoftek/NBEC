@@ -12,11 +12,9 @@ const Navbar = () => {
       alt="NBFC" 
       className='w-24 md:w-32 lg:w-48 h-auto' 
     />
-    <Image 
-      src={contact} 
-      alt="contact" 
-      className='w-28 md:w-36 lg:w-48 h-auto' 
-    />
+   <button className='bg-blue transition duration-300  ease-in-out md:w-48 w-28 mt-2 md:px-6 md:py-4  px-4 sm:py-2 py-2 rounded-2xl inline-block hover:bg-black text-white font-bold md:tracking-widest tracking-wider font-gilroy sm:text-[8px] min-[390px]:text-[6px] text-[8px]  md:text-sm'>
+            Get in Touch
+          </button>
         </nav>
 
     </div>
