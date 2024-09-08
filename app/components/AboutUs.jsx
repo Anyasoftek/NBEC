@@ -10,11 +10,12 @@ const Aboutus = () => {
         <div className='w-full relative '>
             <Image src={bg} alt="bg" className='rounded-2xl' />
             <div className='absolute inset-0 flex flex-col items-end px-8 justify-end md:pb-40 pb-16'>
-            <h1 className='font-gilroy font-bold text-white md:text-7xl text-2xl tracking-wider  text-end   leading-tight'>
-            <span className='block'>Drive the Future with</span>
-            <span className='block'>NBC Engineering's Electric</span>
-            <span className='block '>Rickshaws</span>
-          </h1>
+            <h1 className='font-gilroy font-bold text-white md:text-7xl text-2xl tracking-wider text-end leading-tight'>
+  <span className='block'>Drive the Future with</span>
+  <span className='block'>NBC Engineering&rsquo;s Electric</span>  {/* Escaped ' using &rsquo; */}
+  <span className='block'>Rickshaws</span>
+</h1>
+
           <button className='bg-blue transition duration-300 mt-2 ease-in-out md:w-48 w-32 md:px-6 md:py-4 px-4 py-2 rounded-2xl inline-block hover:bg-black text-white font-bold md:tracking-widest tracking-wider font-gilroy text-[10px]  md:text-sm'>
             Explore Products
           </button>

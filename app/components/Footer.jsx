@@ -14,7 +14,7 @@ export function Footer() {
         <div className="max-w-8xl mx-auto w-full flex justify-end  ">
           <div className="w-full sm:w-auto md:w-1/3">
             
-                <Image src={logo}  className='w-36 md:w-32 lg:w-48 h-auto' />
+                <Image src={logo} alt='logo' className='w-36 md:w-32 lg:w-48 h-auto' />
             
            
         
